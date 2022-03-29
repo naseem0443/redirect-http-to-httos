@@ -1,0 +1,6 @@
+VirtualHost *:80>
+   ServerAdmin fssai.cdc@gmail.com
+   ServerName domian.com
+   ServerAlias www.domain.com
+   RedirectPermanent / https:/domain.com
+</VirtualHost>
